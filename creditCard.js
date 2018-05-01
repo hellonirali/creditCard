@@ -134,3 +134,4 @@ CreditCard.prototype.balance = function(dateInput){
   let totalDaysPassed = countDays(this.openingDay, date);
   return `${totalDaysPassed} days after account opening. Current balance due: $${(this.outstandingBalance).toFixed(2)}`;
 };
+
